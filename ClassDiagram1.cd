@@ -1,0 +1,267 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" GroupingSetting="Access" MembersFormat="NameAndType">
+  <Class Name="Dungeon_Crawl.src.Character.Monster" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="7.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAEAAQAAAAAQGBAAAAEABAEIAEAQAAQEAAkIAAFAI=</HashCode>
+      <FileName>src\Character\Monster.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Dungeon_Crawl.src.Character.MonsterDictionary" Collapsed="true">
+    <Position X="9" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAAAAABAAAAAAAAAAABAAACAAAAAAAAAAAA=</HashCode>
+      <FileName>src\Character\MonsterDictionary.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dungeon_Crawl.src.Character.Stats" Collapsed="true">
+    <Position X="3.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAQAAAAAACACAAAAAAAAAAAAAAAAAAAgAAAAAA=</HashCode>
+      <FileName>src\Character\Stats.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dungeon_Crawl.src.Combat.Combat" Collapsed="true">
+    <Position X="5.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABAACAAAAAAAABAAAAAAAQAAAAAAAA=</HashCode>
+      <FileName>src\Combat\Combat.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dungeon_Crawl.src.Combat.Encounter" Collapsed="true">
+    <Position X="10.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAAAAAAAAAAAAABAAARABAAAAAABAAIAIAAAA=</HashCode>
+      <FileName>src\Combat\Encounter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dungeon_Crawl.src.Combat.EncounterGenerator" Collapsed="true">
+    <Position X="2" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAAAAAAAAAAAAAAQAAAAAAAAgAAAAgAAAAA=</HashCode>
+      <FileName>src\Combat\EncounterGenerator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dungeon_Crawl.src.Combat.Effects.DamageOverTime" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="7.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAQAAAAAAAAAAAAAAQEAAAAAAQAEAAAIAAQAAAAAEAA=</HashCode>
+      <FileName>src\Combat\Effects\DamageOverTime.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Dungeon_Crawl.src.Combat.Effects.HealOverTime" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="5.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAQAAAAAAAAAAAAAAQEAAAAAAQAEAAAIAAQAAAAAEAA=</HashCode>
+      <FileName>src\Combat\Effects\HealOverTime.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Dungeon_Crawl.src.Combat.Effects.TemporaryStatIncrease" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="5.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAQAAAAAAAAAAAAAAQEAAAAAAQAEAgAIAAQAAAAAEAA=</HashCode>
+      <FileName>src\Combat\Effects\TemporaryStatIncrease.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Dungeon_Crawl.src.Combat.Skills.AngryJiggle" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="2" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAACAAAAAACAAAAABAAAgAAAAAAAAAAA=</HashCode>
+      <FileName>src\Combat\Skills\AngryJiggle.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Dungeon_Crawl.src.Combat.Skills.FireBolt" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="3.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAAAAAAAAACAAAAAAAAAAAAACAAAAAAAAAAABAA=</HashCode>
+      <FileName>src\Combat\Skills\FireBolt.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Dungeon_Crawl.src.Combat.Skills.HeavySlash" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="7.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAAAAAAAAACAAAAAAAAAAAAACAAAAAAAAAAABAA=</HashCode>
+      <FileName>src\Combat\Skills\HeavySlash.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Dungeon_Crawl.src.Combat.Skills.NormalSlash" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="10.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAEAAAAAAAAAACAAAAAAAAAAAAACAAAAAAAAAAABAA=</HashCode>
+      <FileName>src\Combat\Skills\NormalSlash.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Dungeon_Crawl.src.Combat.Skills.RiskySlash" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="2" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAEAAAAAAAAAACAAAAAAAAAAAAACAAAAAAAAAAABAA=</HashCode>
+      <FileName>src\Combat\Skills\RiskySlash.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="AudioManager" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="3.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQYBACAEAABAAAAAAAUAAABAAAAAAAAAAABABAA=</HashCode>
+      <FileName>src\Core\AudioManager.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Dungeon_Crawl.src.DungeonRenderer" Collapsed="true">
+    <Position X="9" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAADMAIABADAAEAgEQAAAADAAAAIQAAAAQCAUQA=</HashCode>
+      <FileName>src\Core\DungeonRenderer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dungeon_Crawl.src.Dungeon.MapData" Collapsed="true">
+    <Position X="2" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAEAAAAAAAAABAAAAAAAAAAABAAAAEEACAAAIAAAA=</HashCode>
+      <FileName>src\Dungeon\MapData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dungeon_Crawl.src.Items.ItemDictionary" Collapsed="true">
+    <Position X="9" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAEABAAAAAAAAA=</HashCode>
+      <FileName>src\Items\ItemDictionary.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dungeon_Crawl.src.Items.MajorHealthPotion" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="10.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAABAA=</HashCode>
+      <FileName>src\Items\MajorHealthPotion.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Dungeon_Crawl.src.Items.MinorHealthPotion" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="3.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAABAA=</HashCode>
+      <FileName>src\Items\MinorHealthPotion.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Dungeon_Crawl.src.Items.ModerateHealthPotion" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="5.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAABAA=</HashCode>
+      <FileName>src\Items\ModerateHealingPotion.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Dungeon_Crawl.src.PlayerCore.Player" Collapsed="true">
+    <Position X="2" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAIAAAAAACABAAAAABAAAAAQAAAAAAAAAA=</HashCode>
+      <FileName>src\Player\Player.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dungeon_Crawl.src.PlayerCore.Components.PlayerCombat" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="3.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgSAEBQAAAAAAQGBAQgAEABAgAAAAwAAQEAAkIAABAI=</HashCode>
+      <FileName>src\Player\Components\PlayerCombat.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Dungeon_Crawl.src.PlayerCore.Components.PlayerControls" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="5.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAZQAACAAAAAAYACAAAKAAAAAAIAIIABAgAAAAACAAA=</HashCode>
+      <FileName>src\Player\Components\PlayerControls.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Dungeon_Crawl.src.PlayerCore.Components.PlayerMovement" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="7.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAYAAAAAMKhCAQAAAAAAExACAAGAAEAYQIAwAQAAIAA=</HashCode>
+      <FileName>src\Player\Components\PlayerMovement.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Dungeon_Crawl.src.PlayerCore.Components.PlayerStats" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="9" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AASAAAAQAAAAASCAAAAEAAAAEBAAAAABBBAAgAAAAAA=</HashCode>
+      <FileName>src\Player\Components\PlayerStats.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Dungeon_Crawl.src.PlayerCore.Components.PlayerUI" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="10.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQQAABAAAEgQAQAAAAAAAAAAAABAAAABABAAAAAAAAA=</HashCode>
+      <FileName>src\Player\Components\PlayerUI.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Struct Name="Dungeon_Crawl.src.PlayerCore.Components.PlayerView" Collapsed="true">
+    <Position X="2" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAAAAAIIAAAAAAAAAAAAAAAAAAAAAwAAAAAAA=</HashCode>
+      <FileName>src\Player\Components\PlayerMovement.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Interface Name="Dungeon_Crawl.src.Combat.IEffect" Collapsed="true">
+    <Position X="5.5" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAQAAAAAAAA=</HashCode>
+      <FileName>src\Combat\Effects\IEffect.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Dungeon_Crawl.src.Combat.ICombatant" Collapsed="true">
+    <Position X="2" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAAAAAQCBAAAAEABAAAAAAQAAQEAAkAAABAA=</HashCode>
+      <FileName>src\Combat\ICombatant.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Dungeon_Crawl.src.Combat.IEffected" Collapsed="true">
+    <Position X="7.25" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAA=</HashCode>
+      <FileName>src\Combat\IEffected.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Dungeon_Crawl.src.Combat.ISkill" Collapsed="true">
+    <Position X="10.75" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAAAAAAAAACAAAAAAAAAAAAACAAAAAAAAAAABAA=</HashCode>
+      <FileName>src\Combat\Skills\ISkill.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Dungeon_Crawl.src.IItem" Collapsed="true">
+    <Position X="9" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAABAA=</HashCode>
+      <FileName>src\Items\IItem.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Dungeon_Crawl.src.PlayerCore.IComponent" Collapsed="true">
+    <Position X="3.75" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>src\Player\Components\IComponent.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="Dungeon_Crawl.src.Character.Stat" Collapsed="true">
+    <Position X="2" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgAAAAAAAABAAAAAAAAAARAAAAAAAAAAEAQADA=</HashCode>
+      <FileName>src\Character\Stats.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
